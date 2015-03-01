@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat-css": "^2.1.0",
+    "gulp-file": "^0.2.0",
+    "gulp-file-include": "^0.8.0",
+    "gulp-imagemin": "^2.2.0",
+    "gulp-minify-css": "^0.3.13",
+    "gulp-sass": "*",
+    "gulp-scss-lint": "*",
+    "gulp-uglify": "^1.1.0",
+    "gulp-useref": "^1.1.1",
+    "gulp-watch": "^4.1.1",
+    "imagemin-pngquant": "^4.0.0",
+    "yargs": "^3.0.4"
+  }
+}
