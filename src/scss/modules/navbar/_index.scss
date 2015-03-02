@@ -11,9 +11,11 @@ nav {
   z-index: 9000;
 
   h1 {
+    color: #fff;
+    cursor: pointer;
     display: inline-block;
     font-size: 20px;
-    margin: 5px;
+    margin: 5px 0 5px 20px;
   }
 
   ul {
@@ -22,6 +24,7 @@ nav {
 
   li {
     border-color: transparent;
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -29,9 +32,32 @@ nav {
     padding: 5px 15px;
 
     &:hover {
-      border-bottom: 4px solid;
-      border-color: $secondary-color;
-      transition: border-color .5s;
+      border-bottom: 1px solid rgba(0, 0, 0, .66);
+    }
+  }
+}
+
+.solid-nav {
+  background-color: rgba(255, 255, 255, .15);
+  
+  h1,
+  li {
+    color: rgba(0, 0, 0, .08);
+    transition: color .3s;
+  }
+
+  &:hover {
+    color: rgba(0, 0, 0, .66);
+    transition: color .3s;
+
+    h1 {
+      color: rgba(0, 0, 0, .66);
+      transition: color .3s;
+    }
+
+    li {
+      color: rgba(0, 0, 0, .66);
+      transition: color .3s;
     }
   }
 }

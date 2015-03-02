@@ -33,3 +33,11 @@ $('textarea').on('input propertychange paste', function() {
     $(this).prev().addClass('hide-label');
   }
 });
+
+$(window).on('scroll', function ( e ) {
+  if ($(window).scrollTop() > window.innerHeight - 150) {
+    $('nav').addClass('solid-nav');
+  } else {
+    $('nav').removeClass('solid-nav');
+  };
+});
