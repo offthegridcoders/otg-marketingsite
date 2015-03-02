@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
-    @@include('../src/partials/_head.html', {"title": "Off the Grid Coders"})
+  @@include('../src/partials/_head.html', {"title": "Off the Grid Coders"})
   <body>
-   @@include('../src/partials/_navbar.html')
-   @@include('../src/partials/_header.html')
-
-   @@include('../src/partials/_footer.html')
+    @@include('../src/partials/_navbar.html')
+    @@include('../src/partials/_header.html')
+    <section>
+      @@include('../src/partials/_about.html')
+      @@include('../src/partials/_team.html')
+      @@include('../src/partials/_contact.html')
+    </section>
+    @@include('../src/partials/_footer.html')
     @@include('../src/partials/_scripts.html')
   </body>
 </html>

@@ -1,0 +1,66 @@
+.team-article {
+  h1,
+  p {
+    text-align: center;
+  }
+}
+
+.team-list {
+  margin-top: 100px;
+  width: 100%;
+
+  .fa-twitter-square {
+    color: #39c2ea;
+  }
+
+  .fa-linkedin-square {
+    color: #0599d0;
+  }
+
+  .fa-github-alt {
+    color: #000;
+  }
+
+  .single-member {
+    width: 650px;
+    margin: 50px auto;
+  }
+
+  h1 {
+    color: $secondary-color;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  h2 {
+    color: $dark-gray;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  p {
+    color: $gray;
+    text-align: left;
+    font-weight: 200;
+  }
+
+  .profile-pic {
+    box-shadow: 2px 2px 5px #919191;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .social-list {
+    margin-top: 4px;
+
+    li {
+      display: inline-block;
+    }
+
+    i {
+      cursor: pointer;
+      font-size: 24px;
+    }
+  }
+}
