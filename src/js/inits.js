@@ -42,7 +42,14 @@ $(window).on('scroll', function ( e ) {
   };
 });
 
-$('nav ul').find('a').click(function(){
+$('nav').find('a').click(function(){
+  var $href = $(this).attr('href');
+  var $anchor = $($href).offset();
+  $('body').animate({ scrollTop: $anchor.top });
+  return false;
+});
+
+$('header').find('a').click(function(){
   var $href = $(this).attr('href');
   var $anchor = $($href).offset();
   $('body').animate({ scrollTop: $anchor.top });
