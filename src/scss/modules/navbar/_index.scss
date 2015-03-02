@@ -24,7 +24,6 @@ nav {
 
   li {
     border-color: transparent;
-    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -32,16 +31,21 @@ nav {
     padding: 5px 15px;
 
     &:hover {
-      border-bottom: 1px solid rgba(0, 0, 0, .66);
+      border-bottom: 1px solid #fff;
     }
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 }
 
 .solid-nav {
   background-color: rgba(255, 255, 255, .15);
-  
+
   h1,
-  li {
+  a {
     color: rgba(0, 0, 0, .08);
     transition: color .3s;
   }
@@ -50,12 +54,16 @@ nav {
     color: rgba(0, 0, 0, .66);
     transition: color .3s;
 
+    li:hover {
+      border-bottom: 1px solid rgba(0, 0, 0, .66);
+    }
+    
     h1 {
       color: rgba(0, 0, 0, .66);
       transition: color .3s;
     }
 
-    li {
+    a {
       color: rgba(0, 0, 0, .66);
       transition: color .3s;
     }
