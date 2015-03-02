@@ -1,0 +1,27 @@
+header {
+  background-image: url('../assets/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+
+  .content-wrap {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 auto 20px;
+    text-transform: uppercase;
+    width: 700px;
+  }
+
+  span {
+    color: $primary-color;
+  }
+}

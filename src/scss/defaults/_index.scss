@@ -1,3 +1,27 @@
 * {
   box-sizing: border-box;
+  font-family: $primary-font;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+div,
+article,
+section,
+ul,
+li,
+table,
+tr,
+td,
+form {
+  margin: 0;
+  padding: 0;
 }

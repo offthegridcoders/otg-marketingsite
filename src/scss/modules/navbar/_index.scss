@@ -1,0 +1,37 @@
+nav {
+  color: #fff;
+  height: 60px;
+  left: 0;
+  padding: 10px 0;
+  position: fixed;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+  z-index: 9000;
+
+  h1 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+  }
+
+  li {
+    border-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px 15px;
+
+    &:hover {
+      border-bottom: 4px solid;
+      border-color: $secondary-color;
+      transition: border-color .5s;
+    }
+  }
+}
