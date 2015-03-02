@@ -16,6 +16,7 @@
   input[type="text"],
   textarea {
     border: 1px solid rgba(50, 50, 50, .4);
+    outline: none;
     width: 100%;
   }
 
@@ -36,7 +37,8 @@
     border-radius: 5px;
     height: 250px;
     margin: 10px 0;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 14px;
     position: relative;
     resize: none;
     z-index: 10;
