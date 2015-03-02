@@ -1,0 +1,44 @@
+.contact-article {
+  text-align: center;
+}
+
+.contact-form {
+  margin: 0 auto;
+  text-align: left;
+  width: 600px;
+
+  input[type="text"],
+  textarea {
+    border: solid 1px $gray;
+    width: 100%;
+  }
+
+  input[type="text"] {
+    height: 40px;
+    margin: 10px 0;
+    padding-left: 5px;
+  }
+
+  textarea {
+    height: 250px;
+    margin: 10px 0;
+    padding-left: 5px;
+  }
+
+  label {
+    color: #575757;
+    position: relative;
+  }
+  
+  .hide-label {
+    top: 40px;
+    transition: top .3s ease;
+    z-index: -1;
+  }
+
+  .show-label {
+    top: 0;
+    transition: top .3s ease;
+    z-index: 1;
+  }
+}

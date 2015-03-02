@@ -1,0 +1,9 @@
+linters:
+
+  Indentation:
+    enabled: true
+    width: 2
+  DuplicateProperty:
+    enabled: false
+  QualifyingElement:
+    enabled: false
