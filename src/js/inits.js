@@ -41,3 +41,10 @@ $(window).on('scroll', function ( e ) {
     $('nav').removeClass('solid-nav');
   };
 });
+
+$('nav ul').find('a').click(function(){
+  var $href = $(this).attr('href');
+  var $anchor = $($href).offset();
+  $('body').animate({ scrollTop: $anchor.top });
+  return false;
+});
