@@ -1,7 +1,14 @@
 .team-article {
-  h1,
-  p {
+  h1 {
     text-align: center;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #575757;
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
   }
 }
 

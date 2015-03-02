@@ -1,0 +1,20 @@
+.about-article {
+  background-color: $primary-color;
+  text-align: center;
+
+  i {
+    color: #fff;
+    font-size: 80px;
+  }
+
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #fff;
+    margin: 0 auto;
+    width: 600px;
+  }
+}
