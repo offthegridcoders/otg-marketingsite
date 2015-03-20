@@ -14,13 +14,15 @@
   width: 600px;
 
   input[type="text"],
+  input[type="email"],
   textarea {
     border: 1px solid rgba(50, 50, 50, .4);
     outline: none;
     width: 100%;
   }
 
-  input[type="text"] {
+  input[type="text"],
+  input[type="email"] {
     background-color: transparent;
     border: 0;
     border-radius: 5px;
