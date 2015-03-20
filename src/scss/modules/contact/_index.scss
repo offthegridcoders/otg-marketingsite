@@ -10,6 +10,7 @@
 
 .contact-form {
   margin: 0 auto;
+  max-width: 100%;
   text-align: left;
   width: 600px;
 
@@ -72,6 +73,7 @@
     padding-left: 10px;
     top: 60px;
     transition: top .3s ease;
+    width: 100%;
   }
 
   .show-label {

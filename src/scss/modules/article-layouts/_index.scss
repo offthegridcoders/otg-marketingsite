@@ -6,6 +6,10 @@ article {
   margin: 0;
   padding: 100px;
 
+  @media screen and (max-width: 550px) {
+    padding: 40px;
+  }
+
   .full-width-img {
     margin: 0 auto;
   }
